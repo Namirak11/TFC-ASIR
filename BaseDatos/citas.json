@@ -1,0 +1,16 @@
+[
+  {
+    "fecha_hora": "2025-03-07T10:30:00Z",
+    "motivo": "Revisión anual",
+    "estado": "Pendiente",
+    "paciente_id": "60d0fe4f5311236168a109d0",
+    "especialista_id": "60d0fe4f5311236168a109b0"
+  },
+  {
+    "fecha_hora": "2025-03-08T11:00:00Z",
+    "motivo": "Consulta de seguimiento",
+    "estado": "Confirmada",
+    "paciente_id": "60d0fe4f5311236168a109d1",
+    "especialista_id": "60d0fe4f5311236168a109b1"
+  }
+]

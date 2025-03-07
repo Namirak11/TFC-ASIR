@@ -1,0 +1,24 @@
+[
+  {
+    "nombre": "Dr. Juan",
+    "apellidos": "Pérez Gómez",
+    "especialidad": "Cardiología",
+    "telefono": "555-2345",
+    "correo": "juan.perez@clinicacentral.com",
+    "citas": [
+      "60d0fe4f5311236168a109c0",
+      "60d0fe4f5311236168a109c1"
+    ]
+  },
+  {
+    "nombre": "Dra. Ana",
+    "apellidos": "Martínez Sánchez",
+    "especialidad": "Pediatría",
+    "telefono": "555-3456",
+    "correo": "ana.martinez@clinicacentral.com",
+    "citas": [
+      "60d0fe4f5311236168a109c2",
+      "60d0fe4f5311236168a109c3"
+    ]
+  }
+]
