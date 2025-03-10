@@ -1,0 +1,95 @@
+/* Reinicio básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y fuente del body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal del login */
+.login-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Espacio para el logo */
+.logo img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Título de la plataforma */
+.login-container h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Mensaje de bienvenida */
+.saludo {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilo del formulario */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Grupo de campos */
+.formulario_cajitas {
+    text-align: left;
+}
+
+/* Etiquetas de los campos */
+.formulario_cajitas label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Campos de entrada */
+.formulario_cajitas input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.formulario_cajitas input:focus {
+    border-color: #007BFF;
+}
+
+/* Botón de envío */
+.login-form button {
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+    background: #0056b3;
+}

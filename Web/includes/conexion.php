@@ -3,9 +3,10 @@ require '../vendor/autoload.php';
 
 try {
     $cliente = new MongoDB\Client("mongodb://localhost:27017");
-    $baseDatos = $cliente->hospital;
-    echo "Conexión exitosa a MongoDB en XAMPP";
+    $baseDatos = $cliente->TFC;
 } catch (Exception $e) {
-    echo "Error de conexión: " . $e->getMessage();
+    exit("Error de conexión a MongoDB: " . $e->getMessage());
 }
+
+return $baseDatos;
 ?>
