@@ -32,8 +32,8 @@ unset($_SESSION['error']);
         <p class="saludo"><?php echo $saludo; ?>, bienvenido a la plataforma K-SALUD</p>
         <form class="login-form" action="includes/login.php" method="POST">
             <div class="formulario_cajitas">
-                <label for="usuario">Usuario</label>
-                <input type="text" id="usuario" name="usuario" placeholder="Ingresa tu usuario" required>
+                <label for="username">Usuario</label>
+                <input type="text" id="username" name="username" placeholder="Ingresa tu usuario" required>
             </div>
             <div class="formulario_cajitas">
                 <label for="password">Contraseña</label>

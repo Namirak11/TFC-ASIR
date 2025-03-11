@@ -2,26 +2,21 @@
 session_start();
 require_once "conexion.php";
 
-echo "Login script ejecutado";
 
-if ($usuario) {
-    var_dump($password); // 🔍 Contraseña ingresada
-    var_dump($usuario['password']); // 🔍 Contraseña en MongoDB (hasheada)
-    var_dump(password_verify($password, $usuario['password'])); // 🔍 Verificar si devuelve true
-    exit();
-}
-/*
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
-    $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_STRING);
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['username'], $_POST['password'])) {
+    $username = trim($_POST['username']);
+    $password = trim($_POST['password']);
 
-    $collection = $baseDatos->usuarios;
+    $collection = $baseDatos->selectCollection("usuarios");
     $usuario = $collection->findOne(['username' => $username]);
 
     if ($usuario) {
-        if (password_verify($password, $usuario['password'])) {
+        $passwordHash = (string)$usuario['password'];
+
+        if (password_verify($password, $passwordHash)) {
             $_SESSION['user'] = $username;
             $_SESSION['role'] = $usuario['role'];
+            session_write_close();
             header("Location: ../dashboard.php");
             exit();
         } else {
@@ -33,9 +28,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 } else {
     $_SESSION['error'] = "Acceso no permitido.";
 }
-
-if (!headers_sent()) {
-    header("Location: ../index.php");
-    exit();
-}*/
-?>
