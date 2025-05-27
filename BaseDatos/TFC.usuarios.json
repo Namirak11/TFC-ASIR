@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "67ced907c5ffb957c604c099"
+  },
+  "username": "admin",
+  "password": "$admin123",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "67ced907c5ffb957c604c09a"
+  },
+  "username": "doctor1",
+  "password": "$2y$10$x8eZG9.kE9yJtjQLhbrzQO.Z4U8zHfO1DXVvL8ty2uylY09hEmnKy",
+  "role": "doctor"
+},
+{
+  "_id": {
+    "$oid": "67ced907c5ffb957c604c09b"
+  },
+  "username": "recepcionista",
+  "password": "$2y$10$XKhMFE58nQw5fJD0A7mZYewD0fT7EV2A8ot1zqWDRN3ZT8JaQUA1y",
+  "role": "recepcion"
+},
+{
+  "_id": {
+    "$oid": "67cff990a8598bff3fd74c62"
+  },
+  "username": "user1",
+  "password": "$2y$10$SLS7e9lg/5VAWVy1oGhy8eZMQle3f/lkKDKl7Ynky2kaGjq7siBiu",
+  "role": "medico"
+}]

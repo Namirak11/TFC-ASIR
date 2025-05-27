@@ -1,12 +1,8 @@
 <?php
-require '../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 try {
-    $cliente = new MongoDB\Client("mongodb://localhost:27017");
-    $baseDatos = $cliente->TFC;
+    $client = new MongoDB\Client("mongodb://localhost:27017");
 } catch (Exception $e) {
-    exit("Error de conexión a MongoDB: " . $e->getMessage());
+    die("Error al conectar con MongoDB: " . $e->getMessage());
 }
-
-return $baseDatos;
-?>
