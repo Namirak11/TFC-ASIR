@@ -1,32 +1,40 @@
 [{
   "_id": {
-    "$oid": "67ced907c5ffb957c604c099"
-  },
-  "username": "admin",
-  "password": "$admin123",
-  "role": "admin"
-},
-{
-  "_id": {
-    "$oid": "67ced907c5ffb957c604c09a"
+    "$oid": "68368992af39ba20a55bd074"
   },
   "username": "doctor1",
-  "password": "$2y$10$x8eZG9.kE9yJtjQLhbrzQO.Z4U8zHfO1DXVvL8ty2uylY09hEmnKy",
+  "password": "$2y$10$RqJn2laKz5aJ81GT5oXBwe3sLtbg7uyrDeyHbpUGSUS31cVcNF2rm",
   "role": "doctor"
 },
 {
   "_id": {
-    "$oid": "67ced907c5ffb957c604c09b"
+    "$oid": "68368992af39ba20a55bd075"
   },
-  "username": "recepcionista",
-  "password": "$2y$10$XKhMFE58nQw5fJD0A7mZYewD0fT7EV2A8ot1zqWDRN3ZT8JaQUA1y",
-  "role": "recepcion"
+  "username": "doctor2",
+  "password": "$2y$10$Hd3N8BdPmy/CfVLQDYU0/OlFbL2mZnpS0Q8iYvMyPqNsTmgmBXzya",
+  "role": "doctor"
 },
 {
   "_id": {
-    "$oid": "67cff990a8598bff3fd74c62"
+    "$oid": "68368992af39ba20a55bd076"
   },
-  "username": "user1",
-  "password": "$2y$10$SLS7e9lg/5VAWVy1oGhy8eZMQle3f/lkKDKl7Ynky2kaGjq7siBiu",
-  "role": "medico"
+  "username": "doctor3",
+  "password": "$2y$10$Hd3N8BdPmy/CfVLQDYU0/OlFbL2mZnpS0Q8iYvMyPqNsTmgmBXzya",
+  "role": "doctor"
+},
+{
+  "_id": {
+    "$oid": "68368992af39ba20a55bd077"
+  },
+  "username": "admin1",
+  "password": "$2y$10$9jJcJHZ7.am.485L87oQUOPAnTV4jM75dkMicWNF21f4NzVmMk3ry",
+  "role": "admin"
+},
+{
+  "_id": {
+    "$oid": "68368992af39ba20a55bd078"
+  },
+  "username": "recepcion1",
+  "password": "$2y$10$oq2vumz9rBEmlqjGdsBzl.6a5g1FLtyKNZhTv41zU6sto5WuC8b52",
+  "role": "recepcion"
 }]

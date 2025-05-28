@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "6836b7b932a49f0589035ab4"
+  },
+  "paciente_id": {
+    "$oid": "68368985af39ba20a55bd06f"
+  },
+  "medico": "doctor1",
+  "fecha": {
+    "$date": "2025-05-28T08:14:00.000Z"
+  },
+  "motivo": "control de asma"
+},
+{
+  "_id": {
+    "$oid": "6836b7d632a49f0589035ab5"
+  },
+  "paciente_id": {
+    "$oid": "68368985af39ba20a55bd06f"
+  },
+  "medico": "doctor2",
+  "fecha": {
+    "$date": "2025-05-19T11:19:00.000Z"
+  },
+  "motivo": "control general"
+},
+{
+  "_id": {
+    "$oid": "6836b7e632a49f0589035ab6"
+  },
+  "paciente_id": {
+    "$oid": "68368985af39ba20a55bd070"
+  },
+  "medico": "doctor1",
+  "fecha": {
+    "$date": "2025-05-29T12:17:00.000Z"
+  },
+  "motivo": "revisión rodilla"
+},
+{
+  "_id": {
+    "$oid": "6836b82a32a49f0589035ab7"
+  },
+  "paciente_id": {
+    "$oid": "68368985af39ba20a55bd071"
+  },
+  "medico": "doctor3",
+  "fecha": {
+    "$date": "2025-05-22T10:19:00.000Z"
+  },
+  "motivo": "revisión corazón"
+}]

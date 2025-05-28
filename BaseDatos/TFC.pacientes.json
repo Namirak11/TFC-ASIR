@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "68368985af39ba20a55bd06f"
+  },
+  "dni": "12345678A",
+  "nombre": "Laura",
+  "apellidos": "Martínez Ruiz",
+  "fecha_nacimiento": "1985-03-22",
+  "direccion": "Calle Mayor 45, Madrid",
+  "historial_clinico": {
+    "alergias": [
+      "Penicilina"
+    ],
+    "enfermedades_anteriores": [
+      "Hipertensión"
+    ],
+    "medicacion_actual": [
+      "Enalapril"
+    ],
+    "notas": "Control mensual requerido"
+  },
+  "citas": [
+    {
+      "$oid": "6836b7b932a49f0589035ab4"
+    },
+    {
+      "$oid": "6836b7d632a49f0589035ab5"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68368985af39ba20a55bd070"
+  },
+  "dni": "23456789B",
+  "nombre": "Carlos",
+  "apellidos": "Gómez Sánchez",
+  "fecha_nacimiento": "1990-11-10",
+  "direccion": "Av. de América 23, Madrid",
+  "historial_clinico": {
+    "alergias": [],
+    "enfermedades_anteriores": [],
+    "medicacion_actual": [],
+    "notas": ""
+  },
+  "citas": [
+    {
+      "$oid": "6836b7e632a49f0589035ab6"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68368985af39ba20a55bd071"
+  },
+  "dni": "34567890C",
+  "nombre": "Lucía",
+  "apellidos": "Fernández López",
+  "fecha_nacimiento": "1978-06-30",
+  "direccion": "Paseo del Prado 9, Madrid",
+  "historial_clinico": {
+    "alergias": [
+      "Polen",
+      "Lactosa"
+    ],
+    "enfermedades_anteriores": [
+      "Asma"
+    ],
+    "medicacion_actual": [
+      "Salbutamol"
+    ],
+    "notas": "Asma controlado con inhalador"
+  },
+  "citas": [
+    {
+      "$oid": "6836b82a32a49f0589035ab7"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68368985af39ba20a55bd072"
+  },
+  "dni": "45678901D",
+  "nombre": "David",
+  "apellidos": "Hernández Gil",
+  "fecha_nacimiento": "2000-01-15",
+  "direccion": "Calle Gran Vía 10, Madrid",
+  "historial_clinico": {
+    "alergias": [],
+    "enfermedades_anteriores": [
+      "Fractura de clavícula"
+    ],
+    "medicacion_actual": [],
+    "notas": ""
+  }
+}]
