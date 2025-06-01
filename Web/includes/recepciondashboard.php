@@ -33,7 +33,7 @@ echo "<div style='margin-bottom: 10px;'>
 
 // Tabla de citas
 echo "<table border='1' cellpadding='8'>
-        <tr><th>Fecha</th><th>Paciente</th><th>Médico</th><th>Motivo</th></tr>";
+        <tr><th>Fecha</th><th>Paciente</th><th>Médico</th><th>Motivo</th><th>Eliminar</th></tr>";
 
 foreach ($citas as $cita) {
     $paciente = $db->pacientes->findOne(['_id' => $cita['paciente_id'] ?? null]);
@@ -45,11 +45,18 @@ foreach ($citas as $cita) {
         : 'Fecha no disponible';
 
     echo "<tr>
-            <td>$fecha</td>
-            <td>$nombreCompleto (DNI: $dni)</td>
-            <td>" . ($cita['medico'] ?? '---') . "</td>
-            <td>" . ($cita['motivo'] ?? '---') . "</td>
-          </tr>";
+        <td>$fecha</td>
+        <td>$nombreCompleto (DNI: $dni)</td>
+        <td>" . ($cita['medico'] ?? '---') . "</td>
+        <td>" . ($cita['motivo'] ?? '---') . "</td>
+        <td>
+            <form method='POST' action='eliminar_cita.php' class='formulario-enlinea' onsubmit='return confirm(\"¿Estás seguro de que quieres eliminar esta cita?\");'>
+                <input type='hidden' name='cita_id' value='" . $cita['_id'] . "'>
+                <input type='submit' value='Eliminar' class='boton-eliminar'>
+            </form>
+        </td>
+      </tr>";
+
 }
 echo "</table>";
 ?>
